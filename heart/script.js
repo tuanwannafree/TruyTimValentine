@@ -31,7 +31,7 @@ function init() {
         container.addChild(heart);
     }
 
-    var text = new createjs.Text("Yay! You just made my heart the happiest! 💕", "bold 24px Arial", "#312");
+    var text = new createjs.Text("No Valentine? No problem. This page loves you unconditionally. 🫶", "bold 24px Arial", "#312");
     text.textAlign = "center";
     text.x = w / 2;
     text.y = h / 2 - text.getMeasuredLineHeight();
