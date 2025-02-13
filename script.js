@@ -22,5 +22,5 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    window.location.href = "yesPage.html";
+    window.location.href = "./heart/Infinitive_heart_main.html";
 }
