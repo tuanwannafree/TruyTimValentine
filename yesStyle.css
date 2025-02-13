@@ -28,3 +28,28 @@ h1 {
     max-width: 500px;
     height: auto;
 }
+
+.button-container {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.gift-button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color: #ff4747;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+/* Hover Effect */
+.gift-button:hover {
+    background-color: #ff2222;
+    transform: scale(1.1);
+}
